@@ -26,10 +26,7 @@ public class BaseClass {
 	public void configBS() {
 		System.out.println("===Connect to DB , Report Config===");
 	}
-	
-	//
-	//
-	//
+
 	
 	
 //	@BeforeClass //(groups = {"Regration", "Smoke"})
