@@ -3,11 +3,32 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.comcast.contactTest.Debug">
+      <class name="Practice_HomePage_Assertion.HomePage_Varification">
         <methods>
-          <include name="modifiedValue"/>
+          <include name="homepage"/>
         </methods>
-      </class> <!-- com.crm.comcast.contactTest.Debug -->
+      </class> <!-- Practice_HomePage_Assertion.HomePage_Varification -->
+      <class name="Listener_Practice.RetryInvoiceTest">
+        <methods>
+          <include name="createInvoceTest"/>
+        </methods>
+      </class> <!-- Listener_Practice.RetryInvoiceTest -->
+      <class name="Listener_Practice.InvoiceTest">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="createInvoceTest"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- Listener_Practice.InvoiceTest -->
+      <class name="Assertion.HomePageVerificationTest">
+        <methods>
+          <include name="homepage"/>
+        </methods>
+      </class> <!-- Assertion.HomePageVerificationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

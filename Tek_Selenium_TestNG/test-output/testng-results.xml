@@ -1,17 +1,913 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results retried="5" ignored="20" total="54" passed="25" failed="4" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[homepageExcecution start]]>
+    </line>
+    <line>
+      <![CDATA[step-1]]>
+    </line>
+    <line>
+      <![CDATA[step-2]]>
+    </line>
+    <line>
+      <![CDATA[step-3]]>
+    </line>
+    <line>
+      <![CDATA[step-4]]>
+    </line>
+    <line>
+      <![CDATA[Excecution End]]>
+    </line>
+    <line>
+      <![CDATA[homepage2Excecution start]]>
+    </line>
+    <line>
+      <![CDATA[step-1]]>
+    </line>
+    <line>
+      <![CDATA[step-2]]>
+    </line>
+    <line>
+      <![CDATA[step-3]]>
+    </line>
+    <line>
+      <![CDATA[step-4]]>
+    </line>
+    <line>
+      <![CDATA[Excecution End]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-06-12T18:28:48 IST" name="Default suite" finished-at="2024-06-12T18:30:59 IST" duration-ms="131388">
+  <suite started-at="2024-07-20T23:45:15 IST" name="Default suite" finished-at="2024-07-20T23:46:33 IST" duration-ms="77864">
     <groups>
+      <group name="Smoke">
+        <method signature="DemoWorkShop.demo()[pri:0, instance:com.crm.comcast.contactTest.DemoWorkShop@131774fe]" name="demo" class="com.crm.comcast.contactTest.DemoWorkShop"/>
+      </group> <!-- Smoke -->
+      <group name="Regration">
+        <method signature="Amazon.amazon()[pri:0, instance:com.crm.comcast.contactTest.Amazon@436813f3]" name="amazon" class="com.crm.comcast.contactTest.Amazon"/>
+        <method signature="FlipCart.flipcart()[pri:0, instance:com.crm.comcast.contactTest.FlipCart@57a3af25]" name="flipcart" class="com.crm.comcast.contactTest.FlipCart"/>
+      </group> <!-- Regration -->
     </groups>
-    <test started-at="2024-06-12T18:28:48 IST" name="Default test" finished-at="2024-06-12T18:30:59 IST" duration-ms="131388">
+    <test started-at="2024-07-20T23:45:15 IST" name="Default test" finished-at="2024-07-20T23:46:33 IST" duration-ms="77864">
+      <class name="com.crm.comcast.contactTest.CreateOrgTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crm.comcast.contactTest.CreateOrgTest@1189dd52]" started-at="2024-07-20T23:45:15 IST" name="configBS" finished-at="2024-07-20T23:45:15 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.comcast.contactTest.CreateOrgTest@1189dd52]" started-at="2024-07-20T23:45:15 IST" name="configBC" finished-at="2024-07-20T23:45:22 IST" duration-ms="7128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.contactTest.CreateOrgTest@1189dd52]" started-at="2024-07-20T23:45:22 IST" name="configBM" finished-at="2024-07-20T23:45:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createcontact()[pri:0, instance:com.crm.comcast.contactTest.CreateOrgTest@1189dd52]" started-at="2024-07-20T23:45:22 IST" name="createcontact" finished-at="2024-07-20T23:45:22 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.contactTest.CreateOrgTest@1189dd52]" started-at="2024-07-20T23:45:22 IST" name="configAM" finished-at="2024-07-20T23:45:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.contactTest.CreateOrgTest@1189dd52]" started-at="2024-07-20T23:45:22 IST" name="configBM" finished-at="2024-07-20T23:45:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createcontactWithDAta()[pri:0, instance:com.crm.comcast.contactTest.CreateOrgTest@1189dd52]" started-at="2024-07-20T23:45:22 IST" name="createcontactWithDAta" finished-at="2024-07-20T23:45:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontactWithDAta -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.contactTest.CreateOrgTest@1189dd52]" started-at="2024-07-20T23:45:22 IST" name="configAM" finished-at="2024-07-20T23:45:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.comcast.contactTest.CreateOrgTest@1189dd52]" started-at="2024-07-20T23:45:22 IST" name="configAC" finished-at="2024-07-20T23:45:22 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crm.comcast.contactTest.CreateOrgTest@1189dd52]" started-at="2024-07-20T23:46:33 IST" name="configAS" finished-at="2024-07-20T23:46:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.crm.comcast.contactTest.CreateOrgTest -->
+      <class name="com.crm.comcast.contactTest.Amazon">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.comcast.contactTest.Amazon@436813f3]" started-at="2024-07-20T23:45:22 IST" name="configBC" finished-at="2024-07-20T23:45:23 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.contactTest.Amazon@436813f3]" started-at="2024-07-20T23:45:23 IST" name="configBM" finished-at="2024-07-20T23:45:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="amazon()[pri:0, instance:com.crm.comcast.contactTest.Amazon@436813f3]" started-at="2024-07-20T23:45:23 IST" name="amazon" finished-at="2024-07-20T23:45:25 IST" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.comcast.contactTest.Amazon@436813f3]" started-at="2024-07-20T23:45:25 IST" name="configAC" finished-at="2024-07-20T23:45:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.contactTest.Amazon@436813f3]" started-at="2024-07-20T23:45:25 IST" name="configAM" finished-at="2024-07-20T23:45:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+      </class> <!-- com.crm.comcast.contactTest.Amazon -->
+      <class name="Listener_Practice.InvoiceTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:Listener_Practice.InvoiceTest@74fe5c40]" started-at="2024-07-20T23:45:25 IST" name="configBC" finished-at="2024-07-20T23:45:26 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="createInvoceTest()[pri:0, instance:Listener_Practice.InvoiceTest@74fe5c40]" started-at="2024-07-20T23:45:26 IST" name="createInvoceTest" finished-at="2024-07-20T23:45:30 IST" duration-ms="4107" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [loginURL] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [loginURL] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Listener_Practice.InvoiceTest.createInvoceTest(InvoiceTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoceTest -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Listener_Practice.InvoiceTest@74fe5c40]" started-at="2024-07-20T23:45:26 IST" name="configBM" finished-at="2024-07-20T23:45:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Listener_Practice.InvoiceTest@74fe5c40]" started-at="2024-07-20T23:45:30 IST" name="configAM" finished-at="2024-07-20T23:45:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Listener_Practice.InvoiceTest@74fe5c40]" started-at="2024-07-20T23:45:30 IST" name="configBM" finished-at="2024-07-20T23:45:30 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createInvoicewithContactTest()[pri:0, instance:Listener_Practice.InvoiceTest@74fe5c40]" started-at="2024-07-20T23:45:30 IST" name="createInvoicewithContactTest" finished-at="2024-07-20T23:45:30 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoicewithContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Listener_Practice.InvoiceTest@74fe5c40]" started-at="2024-07-20T23:45:30 IST" name="configAM" finished-at="2024-07-20T23:45:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:Listener_Practice.InvoiceTest@74fe5c40]" started-at="2024-07-20T23:45:30 IST" name="configAC" finished-at="2024-07-20T23:45:30 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- Listener_Practice.InvoiceTest -->
+      <class name="Assertion.HomePageVerificationTest">
+        <test-method signature="homepage()[pri:0, instance:Assertion.HomePageVerificationTest@3febb011]" started-at="2024-07-20T23:45:30 IST" name="homepage" finished-at="2024-07-20T23:45:34 IST" duration-ms="3785" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Home] but found [Homepage]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Home] but found [Homepage]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Assertion.HomePageVerificationTest.homepage(HomePageVerificationTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="verifyLogo()[pri:0, instance:Assertion.HomePageVerificationTest@3febb011]" started-at="2024-07-20T23:45:34 IST" name="verifyLogo" finished-at="2024-07-20T23:45:38 IST" duration-ms="3807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+      </class> <!-- Assertion.HomePageVerificationTest -->
+      <class name="com.crm.comcast.orgTest.Amazon">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.comcast.orgTest.Amazon@10e31a9a]" started-at="2024-07-20T23:45:38 IST" name="configBC" finished-at="2024-07-20T23:45:39 IST" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.orgTest.Amazon@10e31a9a]" started-at="2024-07-20T23:45:39 IST" name="configBM" finished-at="2024-07-20T23:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="amazon()[pri:0, instance:com.crm.comcast.orgTest.Amazon@10e31a9a]" started-at="2024-07-20T23:45:39 IST" name="amazon" finished-at="2024-07-20T23:45:45 IST" duration-ms="6456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.orgTest.Amazon@10e31a9a]" started-at="2024-07-20T23:45:45 IST" name="configAM" finished-at="2024-07-20T23:45:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.comcast.orgTest.Amazon@10e31a9a]" started-at="2024-07-20T23:45:45 IST" name="configAC" finished-at="2024-07-20T23:45:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.comcast.orgTest.Amazon -->
+      <class name="com.crm.comcast.contactTest.DemoWorkShop">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.comcast.contactTest.DemoWorkShop@131774fe]" started-at="2024-07-20T23:45:45 IST" name="configBC" finished-at="2024-07-20T23:45:46 IST" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.contactTest.DemoWorkShop@131774fe]" started-at="2024-07-20T23:45:46 IST" name="configBM" finished-at="2024-07-20T23:45:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="demo()[pri:0, instance:com.crm.comcast.contactTest.DemoWorkShop@131774fe]" started-at="2024-07-20T23:45:46 IST" name="demo" finished-at="2024-07-20T23:45:50 IST" duration-ms="3672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.contactTest.DemoWorkShop@131774fe]" started-at="2024-07-20T23:45:50 IST" name="configAM" finished-at="2024-07-20T23:45:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.comcast.contactTest.DemoWorkShop@131774fe]" started-at="2024-07-20T23:45:50 IST" name="configAC" finished-at="2024-07-20T23:45:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.comcast.contactTest.DemoWorkShop -->
+      <class name="Report_Extent.SampleReportTest">
+        <test-method signature="createTest()[pri:0, instance:Report_Extent.SampleReportTest@158d2680]" started-at="2024-07-20T23:45:50 IST" name="createTest" finished-at="2024-07-20T23:45:51 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+      </class> <!-- Report_Extent.SampleReportTest -->
+      <class name="Listener_Practice.RetryInvoiceTest">
+        <test-method retried="true" signature="createInvoceTest()[pri:0, instance:Listener_Practice.RetryInvoiceTest@77847718]" started-at="2024-07-20T23:45:51 IST" name="createInvoceTest" finished-at="2024-07-20T23:45:51 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [loginURL]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [loginURL]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Listener_Practice.RetryInvoiceTest.createInvoceTest(RetryInvoiceTest.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoceTest -->
+        <test-method retried="true" signature="createInvoceTest()[pri:0, instance:Listener_Practice.RetryInvoiceTest@77847718]" started-at="2024-07-20T23:45:51 IST" name="createInvoceTest" finished-at="2024-07-20T23:45:51 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [loginURL]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [loginURL]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Listener_Practice.RetryInvoiceTest.createInvoceTest(RetryInvoiceTest.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoceTest -->
+        <test-method retried="true" signature="createInvoceTest()[pri:0, instance:Listener_Practice.RetryInvoiceTest@77847718]" started-at="2024-07-20T23:45:51 IST" name="createInvoceTest" finished-at="2024-07-20T23:45:51 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [loginURL]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [loginURL]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Listener_Practice.RetryInvoiceTest.createInvoceTest(RetryInvoiceTest.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoceTest -->
+        <test-method signature="createInvoceTest()[pri:0, instance:Listener_Practice.RetryInvoiceTest@77847718]" started-at="2024-07-20T23:45:51 IST" name="createInvoceTest" finished-at="2024-07-20T23:45:51 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [loginURL]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [loginURL]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Listener_Practice.RetryInvoiceTest.createInvoceTest(RetryInvoiceTest.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoceTest -->
+        <test-method retried="true" signature="createInvoceTest()[pri:0, instance:Listener_Practice.RetryInvoiceTest@77847718]" started-at="2024-07-20T23:45:51 IST" name="createInvoceTest" finished-at="2024-07-20T23:45:51 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [loginURL]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [loginURL]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Listener_Practice.RetryInvoiceTest.createInvoceTest(RetryInvoiceTest.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoceTest -->
+        <test-method retried="true" signature="createInvoceTest()[pri:0, instance:Listener_Practice.RetryInvoiceTest@77847718]" started-at="2024-07-20T23:45:51 IST" name="createInvoceTest" finished-at="2024-07-20T23:45:51 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [loginURL]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [loginURL]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Listener_Practice.RetryInvoiceTest.createInvoceTest(RetryInvoiceTest.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoceTest -->
+      </class> <!-- Listener_Practice.RetryInvoiceTest -->
+      <class name="com.crm.comcast.orgTest.B">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.comcast.orgTest.B@7f3b84b8]" started-at="2024-07-20T23:45:51 IST" name="configBC" finished-at="2024-07-20T23:45:52 IST" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="amazon()[pri:0, instance:com.crm.comcast.orgTest.B@7f3b84b8]" started-at="2024-07-20T23:45:52 IST" name="amazon" finished-at="2024-07-20T23:45:54 IST" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.orgTest.B@7f3b84b8]" started-at="2024-07-20T23:45:52 IST" name="configBM" finished-at="2024-07-20T23:45:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.orgTest.B@7f3b84b8]" started-at="2024-07-20T23:45:54 IST" name="configAM" finished-at="2024-07-20T23:45:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.orgTest.B@7f3b84b8]" started-at="2024-07-20T23:45:54 IST" name="configBM" finished-at="2024-07-20T23:45:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="demo()[pri:0, instance:com.crm.comcast.orgTest.B@7f3b84b8]" started-at="2024-07-20T23:45:54 IST" name="demo" finished-at="2024-07-20T23:45:57 IST" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.orgTest.B@7f3b84b8]" started-at="2024-07-20T23:45:57 IST" name="configAM" finished-at="2024-07-20T23:45:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method signature="flipcart()[pri:0, instance:com.crm.comcast.orgTest.B@7f3b84b8]" started-at="2024-07-20T23:45:57 IST" name="flipcart" finished-at="2024-07-20T23:45:59 IST" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipcart -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.orgTest.B@7f3b84b8]" started-at="2024-07-20T23:45:57 IST" name="configBM" finished-at="2024-07-20T23:45:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.comcast.orgTest.B@7f3b84b8]" started-at="2024-07-20T23:45:59 IST" name="configAC" finished-at="2024-07-20T23:45:59 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.orgTest.B@7f3b84b8]" started-at="2024-07-20T23:45:59 IST" name="configAM" finished-at="2024-07-20T23:45:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+      </class> <!-- com.crm.comcast.orgTest.B -->
+      <class name="com.crm.comcast.contactTest.FlipCart">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.comcast.contactTest.FlipCart@57a3af25]" started-at="2024-07-20T23:45:59 IST" name="configBC" finished-at="2024-07-20T23:46:00 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.contactTest.FlipCart@57a3af25]" started-at="2024-07-20T23:46:00 IST" name="configBM" finished-at="2024-07-20T23:46:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="flipcart()[pri:0, instance:com.crm.comcast.contactTest.FlipCart@57a3af25]" started-at="2024-07-20T23:46:00 IST" name="flipcart" finished-at="2024-07-20T23:46:03 IST" duration-ms="2432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipcart -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.contactTest.FlipCart@57a3af25]" started-at="2024-07-20T23:46:03 IST" name="configAM" finished-at="2024-07-20T23:46:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.comcast.contactTest.FlipCart@57a3af25]" started-at="2024-07-20T23:46:03 IST" name="configAC" finished-at="2024-07-20T23:46:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.comcast.contactTest.FlipCart -->
+      <class name="Assertion.Example">
+        <test-method signature="homepage(java.lang.reflect.Method)[pri:0, instance:Assertion.Example@2b662a77]" started-at="2024-07-20T23:46:03 IST" name="homepage" finished-at="2024-07-20T23:46:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Assertion.Example.homepage(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[homepageExcecution start]]>
+            </line>
+            <line>
+              <![CDATA[step-1]]>
+            </line>
+            <line>
+              <![CDATA[step-2]]>
+            </line>
+            <line>
+              <![CDATA[step-3]]>
+            </line>
+            <line>
+              <![CDATA[step-4]]>
+            </line>
+            <line>
+              <![CDATA[Excecution End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="homepage2(java.lang.reflect.Method)[pri:0, instance:Assertion.Example@2b662a77]" started-at="2024-07-20T23:46:03 IST" name="homepage2" finished-at="2024-07-20T23:46:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Assertion.Example.homepage2(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[homepage2Excecution start]]>
+            </line>
+            <line>
+              <![CDATA[step-1]]>
+            </line>
+            <line>
+              <![CDATA[step-2]]>
+            </line>
+            <line>
+              <![CDATA[step-3]]>
+            </line>
+            <line>
+              <![CDATA[step-4]]>
+            </line>
+            <line>
+              <![CDATA[Excecution End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homepage2 -->
+      </class> <!-- Assertion.Example -->
       <class name="com.crm.comcast.contactTest.Debug">
-        <test-method signature="actualValue()[pri:0, instance:com.crm.comcast.contactTest.Debug@47e2e487]" started-at="2024-06-12T18:28:48 IST" name="actualValue" finished-at="2024-06-12T18:30:59 IST" duration-ms="131317" status="PASS">
+        <test-method signature="actualValue()[pri:0, instance:com.crm.comcast.contactTest.Debug@7f0eb4b4]" started-at="2024-07-20T23:46:03 IST" name="actualValue" finished-at="2024-07-20T23:46:04 IST" duration-ms="983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- actualValue -->
+        <test-method signature="modifiedValue()[pri:0, instance:com.crm.comcast.contactTest.Debug@7f0eb4b4]" started-at="2024-07-20T23:46:04 IST" name="modifiedValue" finished-at="2024-07-20T23:46:05 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifiedValue -->
       </class> <!-- com.crm.comcast.contactTest.Debug -->
+      <class name="Practice_HomePage_Assertion.HomePage_Varification">
+        <test-method signature="homepage()[pri:0, instance:Practice_HomePage_Assertion.HomePage_Varification@5c33f1a9]" started-at="2024-07-20T23:46:05 IST" name="homepage" finished-at="2024-07-20T23:46:06 IST" duration-ms="1216" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument
+  (Session info: chrome=126.0.6478.182)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01c9ced0e2941756f45e7ee234f93950, get {url=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55703/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01c9ced0e2941756f45e7ee234f93950]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=126.0.6478.182)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01c9ced0e2941756f45e7ee234f93950, get {url=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55703/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01c9ced0e2941756f45e7ee234f93950
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Practice_HomePage_Assertion.HomePage_Varification.homepage(HomePage_Varification.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="verifyLogoHomePageTest()[pri:0, instance:Practice_HomePage_Assertion.HomePage_Varification@5c33f1a9]" started-at="2024-07-20T23:46:06 IST" name="verifyLogoHomePageTest" finished-at="2024-07-20T23:46:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoHomePageTest -->
+      </class> <!-- Practice_HomePage_Assertion.HomePage_Varification -->
+      <class name="com.crm.comcast.orgTest.DemoWorkShop">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.comcast.orgTest.DemoWorkShop@1623b78d]" started-at="2024-07-20T23:46:06 IST" name="configBC" finished-at="2024-07-20T23:46:07 IST" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.orgTest.DemoWorkShop@1623b78d]" started-at="2024-07-20T23:46:07 IST" name="configBM" finished-at="2024-07-20T23:46:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="demo()[pri:0, instance:com.crm.comcast.orgTest.DemoWorkShop@1623b78d]" started-at="2024-07-20T23:46:07 IST" name="demo" finished-at="2024-07-20T23:46:11 IST" duration-ms="3107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.comcast.orgTest.DemoWorkShop@1623b78d]" started-at="2024-07-20T23:46:11 IST" name="configAC" finished-at="2024-07-20T23:46:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.orgTest.DemoWorkShop@1623b78d]" started-at="2024-07-20T23:46:11 IST" name="configAM" finished-at="2024-07-20T23:46:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+      </class> <!-- com.crm.comcast.orgTest.DemoWorkShop -->
+      <class name="com.crm.comcast.contactTest.A">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.comcast.contactTest.A@c8c12ac]" started-at="2024-07-20T23:46:11 IST" name="configBC" finished-at="2024-07-20T23:46:12 IST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="amazon()[pri:0, instance:com.crm.comcast.contactTest.A@c8c12ac]" started-at="2024-07-20T23:46:12 IST" name="amazon" finished-at="2024-07-20T23:46:14 IST" duration-ms="2160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.contactTest.A@c8c12ac]" started-at="2024-07-20T23:46:12 IST" name="configBM" finished-at="2024-07-20T23:46:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.contactTest.A@c8c12ac]" started-at="2024-07-20T23:46:14 IST" name="configAM" finished-at="2024-07-20T23:46:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.contactTest.A@c8c12ac]" started-at="2024-07-20T23:46:14 IST" name="configBM" finished-at="2024-07-20T23:46:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="demo()[pri:0, instance:com.crm.comcast.contactTest.A@c8c12ac]" started-at="2024-07-20T23:46:14 IST" name="demo" finished-at="2024-07-20T23:46:20 IST" duration-ms="5703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.contactTest.A@c8c12ac]" started-at="2024-07-20T23:46:20 IST" name="configAM" finished-at="2024-07-20T23:46:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method signature="flipcart()[pri:0, instance:com.crm.comcast.contactTest.A@c8c12ac]" started-at="2024-07-20T23:46:20 IST" name="flipcart" finished-at="2024-07-20T23:46:23 IST" duration-ms="3360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipcart -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.contactTest.A@c8c12ac]" started-at="2024-07-20T23:46:20 IST" name="configBM" finished-at="2024-07-20T23:46:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.contactTest.A@c8c12ac]" started-at="2024-07-20T23:46:23 IST" name="configAM" finished-at="2024-07-20T23:46:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.comcast.contactTest.A@c8c12ac]" started-at="2024-07-20T23:46:23 IST" name="configAC" finished-at="2024-07-20T23:46:23 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.comcast.contactTest.A -->
+      <class name="com.crm.comcast.orgTest.FlipCart">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.comcast.orgTest.FlipCart@6adbc9d]" started-at="2024-07-20T23:46:23 IST" name="configBC" finished-at="2024-07-20T23:46:25 IST" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="flipcart()[pri:0, instance:com.crm.comcast.orgTest.FlipCart@6adbc9d]" started-at="2024-07-20T23:46:25 IST" name="flipcart" finished-at="2024-07-20T23:46:28 IST" duration-ms="2675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipcart -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.orgTest.FlipCart@6adbc9d]" started-at="2024-07-20T23:46:25 IST" name="configBM" finished-at="2024-07-20T23:46:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.orgTest.FlipCart@6adbc9d]" started-at="2024-07-20T23:46:28 IST" name="configAM" finished-at="2024-07-20T23:46:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.comcast.orgTest.FlipCart@6adbc9d]" started-at="2024-07-20T23:46:28 IST" name="configAC" finished-at="2024-07-20T23:46:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.comcast.orgTest.FlipCart -->
+      <class name="com.crm.comcast.orgTest.CreateContactTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.comcast.orgTest.CreateContactTest@4550bb58]" started-at="2024-07-20T23:46:28 IST" name="configBC" finished-at="2024-07-20T23:46:29 IST" duration-ms="1092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.orgTest.CreateContactTest@4550bb58]" started-at="2024-07-20T23:46:29 IST" name="configAM" finished-at="2024-07-20T23:46:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.orgTest.CreateContactTest@4550bb58]" started-at="2024-07-20T23:46:29 IST" name="configBM" finished-at="2024-07-20T23:46:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.comcast.orgTest.CreateContactTest@4550bb58]" started-at="2024-07-20T23:46:29 IST" name="configBM" finished-at="2024-07-20T23:46:29 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createcontact()[pri:0, instance:com.crm.comcast.orgTest.CreateContactTest@4550bb58]" started-at="2024-07-20T23:46:29 IST" name="createcontact" finished-at="2024-07-20T23:46:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.comcast.orgTest.CreateContactTest@4550bb58]" started-at="2024-07-20T23:46:29 IST" name="configAM" finished-at="2024-07-20T23:46:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method signature="createcontactWithDAta()[pri:0, instance:com.crm.comcast.orgTest.CreateContactTest@4550bb58]" started-at="2024-07-20T23:46:29 IST" name="createcontactWithDAta" finished-at="2024-07-20T23:46:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontactWithDAta -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.comcast.orgTest.CreateContactTest@4550bb58]" started-at="2024-07-20T23:46:29 IST" name="configAC" finished-at="2024-07-20T23:46:29 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.comcast.orgTest.CreateContactTest -->
+      <class name="ScreenShot.Example_screenShort">
+        <test-method signature="amazonPage()[pri:0, instance:ScreenShot.Example_screenShort@4ec4f3a0]" started-at="2024-07-20T23:46:29 IST" name="amazonPage" finished-at="2024-07-20T23:46:33 IST" duration-ms="3684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonPage -->
+      </class> <!-- ScreenShot.Example_screenShort -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
